@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "PvpRp Bypass",
+  "description": "Bypass pvprp.com subscribe step",
+  "version": "1.0",
+  "author": "Monmcgt",
+  "host_permissions": [
+    "https://*.pvprp.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.pvprp.com/*"
+      ],
+      "js": [
+        "src/inject.js"
+      ],
+      "css": [
+        "src/inject.css"
+      ]
+    }
+  ],
+  "action": {}
+}
