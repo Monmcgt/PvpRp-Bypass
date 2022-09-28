@@ -19,5 +19,11 @@
         "src/inject.css"
       ]
     }
-  ]
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "pvprp-bypass.monmcgt@github.com",
+      "strict_min_version": "42a1"
+    }
+  }  
 }
